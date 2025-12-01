@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import TimerDisplay from './Timer'; 
+import TimerDisplay from './Index.jsx'; 
 import './App.css'; 
 
 const App = () => {

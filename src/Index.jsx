@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TimerDisplay = ({ time }) => {
   const formatTime = (milliseconds) => {
     const totalSeconds = Math.floor(milliseconds / 1000);
@@ -12,7 +10,7 @@ const TimerDisplay = ({ time }) => {
   };
 
   return (
-    <div className="timer-display">
+    <div className="App">
       <h2>Time Remaining:</h2>
       <p>{formatTime(time)}</p>
     </div>

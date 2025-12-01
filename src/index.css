@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 64px);
+  font-size: 50px;
+  color: #0850a7;
+}
+
+
+
+
+.slidecontainer{
+  
+  width: 100%; 
+  
+}
+
+.timer-slider{
+  
+
+  -webkit-appearance: none;
+  appearance: none;
+  width: 85%;
+  height: 25px;
+  background: #303030;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+
+  position: relative;
+  top: 100px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  
+}
+
+
+
+.timer-slider:hover{
+  opacity: 1; 
+}
+
+.timer-slider::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  appearance: none;
+  width: 25px ;
+  height: 25px;
+  background: #0e7aff;
+  cursor: pointer;
+}
+
+.timer-slider::-moz-range-thumb{
+  width: 25px;
+  height: 25px;
+  background: #0e7aff;
+  cursor: pointer; 
+}
+
+.setTimerButton {
+  clear: both;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #3b82f6;
+  color: #f1f5f9; 
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  position: relative;
+  top: 200px;
+  right: 500px;
+}
+
+.PauseStartButton {
+  clear: both;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #3b82f6;
+  color: #f1f5f9; 
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  position: relative;
+  top: 200px;
+  right: 450px;
+}
+
+.ResetButton {
+  clear: both;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #3b82f6;
+  color: #f1f5f9; 
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  position: relative;
+  top: 200px;
+  right: 450px;
+}
